@@ -1,0 +1,23 @@
+.our-team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: aliceblue;
+    color: #2c3e50;
+}
+
+.our-team-header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3em 0 0 0;
+}
+.our-team-content{
+    padding: 1em;
+    width: 70%;
+}
+.img-detail{
+    text-transform: uppercase;
+    padding: 1em 0 1em 0;
+    font-weight: 700;
+    font-size: 1.3em;
+}

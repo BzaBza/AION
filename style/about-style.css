@@ -1,0 +1,62 @@
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+
+.about-us {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: -10%;
+    box-shadow: 0 1px 10px silver;
+    width: 60%;
+    padding: 4em 5em 4em 5em;
+    background-color: white;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.about-us > header > p {
+    font-size: 40px;
+    color: #2c3e50;
+    font-weight: 300;
+}
+
+.about-us-content {
+    padding: 2em 2em 2em 2em;
+}
+
+.closes {
+    width: 35px;
+    height: 35px;
+    background-image: url("../icons/prostok-t-2-kopia.png");
+    background-color: white;
+    border: none;
+}
+
+.read-more {
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 38px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    height: 3em;
+    width: 12em;
+    text-transform: uppercase;
+}
+
+.bottom-info {
+    text-align: center;
+    font-weight: 500;
+}
+
+.about > .bottom-info {
+    text-transform: uppercase;
+}

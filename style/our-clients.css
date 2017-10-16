@@ -1,0 +1,30 @@
+.our-clients {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.our-clients-header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.clients {
+    width: 28%;
+    padding: 1em;
+    margin: -10% 0.7em 0 0.7em;
+}
+
+.our-clients-content {
+    text-transform: uppercase;
+    color: white;
+    margin: 1em 0 1em 0;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.partners > ul > li {
+    padding: 1em 1em 3em 1em;
+}

@@ -1,0 +1,46 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+figcaption {
+    width: 14em;
+}
+
+button {
+    cursor: pointer;
+}
+
+.read-more:hover {
+    background-color: #0062cc;
+}
+
+.navbar-icon {
+    height: 27px;
+    width: 38px;
+    background-image: url("../icons/menu.png");
+    border: none;
+}
+
+.bottom-info > ul > li {
+    padding: 5em;
+}
+
+.our-clients {
+    background-color: #9b59b6;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.minim-veniam {
+    padding: 3em;
+    height: 25em;
+    background-color: aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2c3e50;
+}
