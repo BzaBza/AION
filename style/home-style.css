@@ -14,10 +14,9 @@
     justify-content: space-around;
 }
 
-.home > header > .logo {
-    margin: 0;
+.home>header>a{
+    height: 35px;
 }
-
 .home-content {
     height: 50%;
     color: #ecf0f1;
@@ -31,4 +30,12 @@
 
 .home-content > h2 {
     font-size: 62px;
+}
+
+.navbar-icon {
+    height: 27px;
+    width: 38px;
+    background-image: url("../icons/menu.png");
+    border: none;
+    background-color: inherit;
 }

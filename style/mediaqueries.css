@@ -1,14 +1,12 @@
 @media (max-width: 1480px) {
-    header {
-        width: 100%;
-    }
 
     .about-us {
-        font-size: 16px;
+        font-size: 1em;
+        padding: 0;
     }
 
     .read-more {
-        font-size: 16px;
+        font-size: 1em;
     }
 
     .our-clients-header {
@@ -17,5 +15,17 @@
 
     .slider {
         display: none;
+    }
+
+    .partners > ul > li {
+        padding: 1vh;
+    }
+
+    .bottom-info > ul > li {
+        padding: 0;
+    }
+
+    .recent-projects {
+        width: 100%;
     }
 }

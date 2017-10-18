@@ -1,5 +1,6 @@
-ul {
+*{
     padding: 0;
+    margin: 0;
 }
 
 li {
@@ -7,24 +8,17 @@ li {
     display: inline-block;
 }
 
-figcaption {
-    width: 14em;
-}
-
 button {
     cursor: pointer;
     outline: 0 !important;
 }
 
-.read-more:hover {
-    background-color: #0062cc;
+figcaption{
+    width: 15em;
 }
 
-.navbar-icon {
-    height: 27px;
-    width: 38px;
-    background-image: url("../icons/menu.png");
-    border: none;
+.read-more:hover {
+    background-color: #0062cc;
 }
 
 .bottom-info > ul > li {
