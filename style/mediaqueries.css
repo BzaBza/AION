@@ -9,8 +9,10 @@
         font-size: 1em;
     }
 
-    .our-clients-header {
-        display: none;
+    .clients{
+        width: 100%;
+        margin: 0;
+        font-size: 0.8em;
     }
 
     .slider {
@@ -26,6 +28,16 @@
     }
 
     .recent-projects {
+        width: 100%;
+    }
+    .recent-projects-header{
+        width: 100%;
+    }
+    .minim-veniam{
+        width: 100%;
+        padding: 1em 0 0 0;
+    }
+    .our-team-header{
         width: 100%;
     }
 }
