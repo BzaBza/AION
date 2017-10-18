@@ -37,6 +37,7 @@
     height: 35px;
     background-image: url("../icons/prostok-t-2-kopia.png");
     background-color: white;
+    background-position: center;
     border: none;
 }
 

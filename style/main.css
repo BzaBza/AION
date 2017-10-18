@@ -13,6 +13,7 @@ figcaption {
 
 button {
     cursor: pointer;
+    outline: 0 !important;
 }
 
 .read-more:hover {
@@ -39,8 +40,14 @@ button {
 .minim-veniam {
     padding: 3em;
     height: 25em;
+    display: flex;
+    justify-content: center;
     background-color: aliceblue;
     text-transform: uppercase;
     text-align: center;
     color: #2c3e50;
+}
+
+.minim-veniam > header {
+    width: 60%;
 }

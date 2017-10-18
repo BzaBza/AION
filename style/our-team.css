@@ -10,12 +10,15 @@
     text-align: center;
     text-transform: uppercase;
     padding: 3em 0 0 0;
+    width: 50%;
+
 }
-.our-team-content{
+
+.our-team-content {
     padding: 1em;
-    width: 70%;
 }
-.img-detail{
+
+.img-detail {
     text-transform: uppercase;
     padding: 1em 0 1em 0;
     font-weight: 700;
